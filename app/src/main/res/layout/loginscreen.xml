@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main2Activity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/background2"
+        android:scaleType="centerCrop"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/gradient"
+        android:scaleType="centerCrop"/>
+<!--Задаём задний фон-->
+    <LinearLayout
+        android:layout_width="350dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="280dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="50dp"
+            android:background="#ffffff">
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/ppl"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="7dp">
+            </ImageView>
+<!--Изображение рядом с логином-->
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="40dp"
+                android:src="@drawable/line1"
+                android:layout_marginTop="5dp">
+            </ImageView>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:hint="Ivanov I.">
+            </EditText>
+<!--Текстовое поле логина-->
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="280dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:background="#ffffff"
+            android:orientation="horizontal">
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/zamok"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp">
+        </ImageView>
+<!--Изображение рядом с полем для ввода-->
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="40dp"
+            android:src="@drawable/line2"
+            android:layout_marginTop="3dp">
+        </ImageView>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:hint="******">
+            </EditText>
+          </LinearLayout>
+<!--Поле для ввода пароля-->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="30dp"
+            android:gravity="center"
+            android:onClick="forgot"
+            android:text="Forgot Password?">
+        </TextView>
+<!--Переход на активити для восстановления пароля-->
+    </LinearLayout>
+
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:background="#ff0000ff"
+        android:layout_gravity="center"
+        android:layout_marginTop="200dp"
+        android:text="SIGN IN"
+        android:textColor="#ffffff"
+        >
+    </Button>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="600dp"
+        android:gravity="center"
+        android:onClick="auth"
+        android:text="Do you want to create a new account?" />
+
+</FrameLayout>

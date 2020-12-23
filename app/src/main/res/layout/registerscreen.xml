@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main2Activity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/background2"
+        android:scaleType="centerCrop"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/gradient"
+        android:scaleType="centerCrop"/>
+
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="400dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="150dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="300dp"
+            android:layout_height="45dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:background="#ffffff">
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/ppl"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="7dp">
+            </ImageView>
+            <ImageView
+                android:layout_width="15dp"
+                android:layout_height="35dp"
+                android:src="@drawable/line1"
+                android:layout_marginTop="5dp">
+            </ImageView>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:hint="Ivanov I.">
+            </EditText>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:background="#ffffff"
+            android:orientation="horizontal"
+            android:layout_marginTop="100dp">
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/pismo"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp">
+            </ImageView>
+            <ImageView
+                android:layout_width="15dp"
+                android:layout_height="35dp"
+                android:src="@drawable/line2"
+                android:layout_marginTop="3dp">
+            </ImageView>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:hint="******">
+            </EditText>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="300dp"
+            android:layout_height="45dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="7dp"
+            android:background="#ffffff">
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/ppl"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="7dp">
+            </ImageView>
+            <ImageView
+                android:layout_width="15dp"
+                android:layout_height="35dp"
+                android:src="@drawable/line1"
+                android:layout_marginTop="5dp">
+            </ImageView>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:hint="Ivanov I.">
+            </EditText>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="300dp"
+            android:layout_height="45dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="7dp"
+            android:background="#ffffff">
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/ppl"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="7dp">
+            </ImageView>
+            <ImageView
+                android:layout_width="15dp"
+                android:layout_height="35dp"
+                android:src="@drawable/line1"
+                android:layout_marginTop="5dp">
+            </ImageView>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:hint="Ivanov I.">
+            </EditText>
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:background="#ff0000ff"
+        android:layout_gravity="center"
+        android:layout_marginTop="300dp"
+        android:text="SIGN UP"
+        android:textColor="#ffffff">
+    </Button>
+
+
+
+</FrameLayout>
